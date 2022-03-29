@@ -1,0 +1,234 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('../img/img_Bg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+.body2{
+background-image: url('../img/white.png');
+background-size:contain;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.inicio_body{
+background-color: white;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+h5{
+    color: rgb(255, 255, 255);  
+    text-align: center;
+   
+}
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.input{
+    height: 400px;
+    margin-top: 80px;
+    margin-bottom: auto;
+    width: 500px;
+    background-color: rgba(255, 249, 249, 0.5) !important;
+ 
+}
+
+.consulta{
+    height:auto;
+    margin-top: 80px;
+    margin-bottom: auto;
+    width: 99%;
+    background-color: rgba(255, 249, 249, 0.5) !important;
+ 
+}
+.tr,th{
+    background-color: #000000c9;
+    text-decoration-color: rgb(0, 0, 0);
+}
+.grid_img_inicio{
+    height: 400px;
+    margin-top: 80px;
+    margin-bottom: auto;
+    width: 700px;
+    background-color: rgba(255, 249, 249, 0.5) !important;
+    display: grid;
+    grid-gap: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(44rem, 1fr))!important;
+    align-items: start     
+}
+
+.msg_div{
+    
+    height: 400px;
+    margin-top: 80px;
+    
+    margin-bottom: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+}
+.card-img{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+   
+    
+}
+.button{
+
+    margin-left: 5px ;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display:grid;
+}
+.dropdown > .dropdown-toggle:active {
+   
+    pointer-events: none;
+}
+
+
+.dropdown-item:hover{
+    background-color: rgb(0, 92, 145) !important;
+
+}
+a.active{
+   /* background-color: rgb(0, 92, 145) !important;*/
+   background-color: rgb(37,37,37) !important;
+   color: #FFF; 
+   border-radius: 10% !important;
+  }
+
+
+.login_btn{
+    color: black;
+    background-color: #4ca7d1;
+    width: 100px;
+
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 30px;
+    color: #36A0FF;
+}
+
+.card-header h3,h5{
+    color: white;
+    text-align: center;
+}
+
+.card-header2 h5{
+    color: rgb(247, 247, 247);
+    text-align: center;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    background-color: rgba(0,0,0,0.5) !important;
+    border-radius: 15px;
+}
+/*************************************************************************/
+
+
+.bg-black {
+    background-color: #000
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px
+}
+
+.navbar-brand {
+    padding: 6px 10px;
+    font-size: 16px
+}
+
+
+
+/*revisar*/
+.navbar-nav {
+    width: 100%
+    
+    
+}
+
+.nav-item {
+    padding: 4px 14px;
+    text-align: center
+    
+}
+
+.nav-link {
+    padding-bottom: 10px
+}
+
+.v-line {
+    background-color: gray;
+    width: 1px;
+    height: 20px
+}
+
+
+.navbar-collapse.collapse.in {
+    display: block !important
+}
+
+
+li.active 
+ {
+     background-color: #252525; 
+     color: #FFF; 
+     border-radius: 15%;
+ }
+
+ .carousel-item {
+    height: 62vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius:3px;
+  }
+  
